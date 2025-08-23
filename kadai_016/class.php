@@ -23,7 +23,7 @@
             }
             
             function show_price(){
-                echo $this->name;
+                echo $this->price;
             }
         }
 
@@ -35,7 +35,7 @@
             private $weight;
 
                         // コンストラクタを定義する
-            public function __construct(string $name, int $height, string $weight) {
+            public function __construct(string $name, int $height, int $weight) {
                 $this->name = $name;
                 $this->height = $height;
                 $this->weight = $weight;
