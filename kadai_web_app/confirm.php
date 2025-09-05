@@ -21,7 +21,7 @@ $department = $_POST['department'];
             <th>入力内容</th>
         </tr>
         <tr>
-            <td>お名前</td>
+            <td>社員名</td>
             <td><?php echo $name; ?></td>
         </tr>
         <tr>

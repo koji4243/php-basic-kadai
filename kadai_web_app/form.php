@@ -11,7 +11,7 @@
     <form action="confirm.php" method="post">
         <table>
             <tr>
-                <td>お名前</td>
+                <td>社員名</td>
                 <td>
                     <input type="text" name="employee_name">
                 </td>
